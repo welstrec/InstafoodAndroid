@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calendario"
+    android:orientation="vertical"
+    android:background="@drawable/fondoblanco">
+
+    <TextView
+        android:id="@+id/myDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Marca las fechas"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_calen"
+        android:padding="50dp"
+        app:mcv_selectionColor="#00F"
+        app:mcv_showOtherDates="all" />
+
+    <Button
+        android:id="@+id/botonObtenerFechas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bg_btn"
+        android:padding="20dp"
+        android:text="Salvar fechas"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/botonBorrarFechas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rounded_button4"
+        android:padding="20dp"
+        android:text="Eliminar fechas"
+        android:textColor="#FFF" />
+
+</RelativeLayout>

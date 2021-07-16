@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gps"
+    android:background="@drawable/fondoblanco">
+
+    <LinearLayout
+        android:id="@+id/LayoutCambiardir"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded_button6"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textoDireccionActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Direccion"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textoDirG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnCambiarDir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/rounded_button"
+                android:padding="10dp"
+                android:text="Cambiar Dirección"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="356dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutLinearGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded_button6"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textViewDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="Direccion"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnGetLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/rounded_button"
+                android:padding="10dp"
+                android:text="Guardar Dirección"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="356dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button7"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/textoDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="¿desea insertar dirección?"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="138dp" />
+
+            <Button
+                android:id="@+id/btnGuardarLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/rounded_button"
+                android:padding="10dp"
+                android:text="Guardar Dirección"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="356dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_almuerzo"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="Almuerzo del dia" />
+        <item
+            android:id="@+id/nav_organizador"
+            android:icon="@drawable/ic_perm_contact_calendar_black_24dp"
+            android:title="Organizador" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Salir" />
+    </group>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondoblancologo">
+
+    <Button
+        android:id="@+id/facebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:drawableLeft="@drawable/face"
+        android:layout_margin="20dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:background="@drawable/rounded_button3"
+        android:text="Entrar con Facebook"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/loginNumCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facebookButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button2"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        android:gravity="center"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="Entrar con celular"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

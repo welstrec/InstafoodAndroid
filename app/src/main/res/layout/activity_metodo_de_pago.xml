@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MetodoDePago"
+    android:background="@drawable/fondoblanco">
+
+    <Button
+        android:id="@+id/botonTarjetaDeCredito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/rounded_button4"
+        android:drawableRight="@drawable/tarjetacredito"
+        android:padding="20dp"
+        android:text="Tarjeta de Credito"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/botonPagoEfectivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_button5"
+        android:drawableRight="@drawable/efectivo"
+        android:padding="20dp"
+        android:text="Efectivo"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/botonTarjetaDeCredito"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>

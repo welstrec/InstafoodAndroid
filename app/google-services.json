@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "279410977259",
+    "firebase_url": "https://instafood-1000e.firebaseio.com",
+    "project_id": "instafood-1000e",
+    "storage_bucket": "instafood-1000e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279410977259:android:09e11c2b4468d150",
+        "android_client_info": {
+          "package_name": "com.instafood.welstrec.instafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279410977259-di7d2ab5fkd9s8gvkfoe7fuuttn54iq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.instafood.welstrec.instafood",
+            "certificate_hash": "6ecbcd7a74b701d243540e118123e92e01666021"
+          }
+        },
+        {
+          "client_id": "279410977259-8sn7img1l5100af6jnf39ejhj2nqjude.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "279410977259-8sn7img1l5100af6jnf39ejhj2nqjude.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC76FInodyG0XPZwiMYte_uDwSyXiDf4ps"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279410977259-8sn7img1l5100af6jnf39ejhj2nqjude.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
